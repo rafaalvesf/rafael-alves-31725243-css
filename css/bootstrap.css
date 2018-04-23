@@ -6594,6 +6594,7 @@ button.bg-dark:focus {
 }
 
 .align-self-start {
+  padding-top: 60px;
   -ms-flex-item-align: start !important;
   align-self: flex-start !important;
 }
@@ -8948,3 +8949,9 @@ a.text-dark:hover, a.text-dark:focus {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
+
+.rafael{
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+}
