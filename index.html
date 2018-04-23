@@ -1,8 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset="utf-8">
 	<title>Rafael Alves</title>
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+
+
 
 		<body>
 			<nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -17,21 +23,84 @@
         			<a class="nav-link" href="index.html">Início <span class="sr-only">(current)</span></a>
       					</li>
  						<li class="nav-item dropdown">
-        					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="menu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          					Exercícios anteriores
-        					</a>
-      		 				<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+        					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+         					 Exercícios Anteriores
+       						 </a>
+        					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
           					<a class="dropdown-item" href="#">Exercício 1</a>
           					<a class="dropdown-item" href="#">Exercício 2</a>
           					<div class="dropdown-divider"></div>
-          					<a class="dropdown-item" href="#">Exercício 3</a>
+          					<a class="dropdown-item" href="#">Todos exercícios</a>
         					</div>
-      					</li>
+     					 </li>
     				</ul>
-    				<img src="img/eu.jp">
+    				<form class="form-inline my-2 my-lg-0">
+     					 <button class="btn btn-outline-success my-2 my-sm-0" type="submit">RA: 31725243 | <img src="img/eu.jpg" class=rafael></img></button>
+    				</form>
   				</div>
 			</nav>
-
+			<main class="container">
+				<div class="media">
+  					<img class="align-self-start mr-3" src="img/SVG-logo.svg" alt="Generic placeholder image">
+  					<div class="media-body">
+   					 	<h5 class="mt-0">Explicando o SVG</h5>
+   					 	<p>SVG é uma sigla para Scalable Vector Graphics ou, em português, Vetor Gráfico Redimensionável. O padrão foi proposto pelo W3C em 1999, inspirado em formatos proprietários como VML da Microsoft e PGML da Adobe. Em 2001 o SVG ganhou sua primeira versão oficial. A vantagem deste formato em relação aos anteriores é ele ser um padrão aberto (open source). Ou seja, todos podem utilizar sem ter que pagar dinheiro para nenhuma empresa…</p>
+    					<p>Um arquivo SVG é basicamente um mapa em XML que descreve matematicamente uma figura gráfica bidimensional. Funciona como um conjunto de instruções numéricas para realizar um desenho, que são convertidas em imagens em um software capaz de interpreta-lo (como um browser, por exemplo). SVG é para uma imagem o que o HTML é para um texto.</p>
+    					<p>Mais informações em <a href="https://tableless.com.br/imagens-em-alta-resolucao-utilizando-svg/" target=“_blank”>SVG</a></p>
+  					</div>
+				</div>
+			</main>
+			<main class="container">
+				<div class="card-group">
+				  <div class="card">
+				    <img class="card-img-top" src=".../100px180/" alt="Card image cap">
+				    <div class="card-body">
+				      <h5 class="card-title">Card title</h5>
+				      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+				      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+				    </div>
+				  </div>
+				  <div class="card">
+				    <img class="card-img-top" src=".../100px180/" alt="Card image cap">
+				    <div class="card-body">
+				      <h5 class="card-title">Card title</h5>
+				      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+				      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+				    </div>
+				  </div>
+				  <div class="card">
+				    <img class="card-img-top" src=".../100px180/" alt="Card image cap">
+				    <div class="card-body">
+				      <h5 class="card-title">Card title</h5>
+				      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+				      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+				    </div>
+				  </div>
+				</div>
+			</main>
+			<footer class="table table-dark">
+				<table>
+				  <thead>
+				    <tr>
+				      <th scope="col"></th>
+				      <th scope="col">HTML</th>
+				      <th scope="col">CSS</th>
+    				  <th scope="col">JSON</th>
+    				  <th scope="col">JAVASCRIPT</th>
+   					 </tr>
+				  </thead>
+				  <tbody>
+				    <tr>
+				      <th></th>
+				      <td>O nome HTML é uma abreviação para a expressão inglesa de HyperText Markup Language, que significa Linguagem de Marcação de Hipertexto. A tecnologia é fruto da junção entre os padrões HyTime e SGML, que não são mais utilizados.</td>
+				      <td>Cascading Style Sheets (CSS) é um simples mecanismo para adicionar estilo (cores, fontes, espaçamento, etc.) a um documento web. Em vez de colocar a formatação dentro do documento, o CSS cria um link para uma página que contém os estilos.</td>
+				      <td>JSON (JavaScript Object Notation - Notação de Objetos JavaScript) é uma formatação leve de troca de dados. Para seres humanos, é fácil de ler e escrever. Para máquinas, é fácil de interpretar e gerar. Está baseado em um subconjunto da linguagem de programação JavaScript</td>
+				      <td>O JavaScript não foi criado pelo W3C, como muitos pensam. Na verdade ele foi criado por um cara chamado Brendan Eich na Netscape (um dos precursores dos navegadores web). Ele se chamava LiveScript, mas logo seu nome foi mudado para JavaScript.</td>
+				    </tr>
+				  </tbody>
+				</table>
+				<h6>Copyright © 2018 UNA BARREIRO Todos os direitos reservados. Rafael F Alves RA: 31725243</h6>
+			</footer>
 		</body>
 	</link>
 </html>
